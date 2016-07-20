@@ -1,0 +1,154 @@
+ul {
+		z-index: 1;
+
+	position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E89845;
+    width: 100%;
+    font-family: subtitleFont;
+    top:0;
+    left:0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #000000;
+}
+
+#Walaa {
+	z-index: 0;
+top:0;
+float:left;
+position: fixed;
+left:0;
+right:0;
+
+width : 100%;
+       background:url("img/bg1.jpg");
+       background-size: cover; height :100%;
+}
+#About {
+top: 90%;
+	position:absolute;
+left:0;
+right:0;
+
+width : 100%;
+background-color: #797D75;
+
+height : 95%;
+}
+#Resume {
+top: 185%;
+	position:absolute;
+left:0;
+right:0;
+
+width : 100%;
+background-color: #A4D0CE;
+
+height : 95%;
+}
+#Protfoilo {
+top: 280%;
+	position:absolute;
+left:0;
+right:0;
+
+width : 100%;
+background-color: #E8FAFA;
+
+height : 100%;
+}
+#Contact {
+top: 375%;
+	position:absolute;
+left:0;
+right:0;
+
+width : 100%;
+background-color: #918BA4;
+
+height : 100%;
+}
+
+@font-face {
+    font-family: titleFont;
+    src: url(fonts/LobsterTwo-Bold.otf);
+}
+
+@font-face {
+    font-family: subtitleFont;
+    src: url(fonts/SourceSansPro-Light.ttf);
+}
+@font-face {
+    font-family: pageTitles;
+    src: url(fonts/SourceSansPro-Black.ttf);
+}
+
+
+.center {
+	margin-top: 15%;
+    text-align: center;
+}
+
+#title{
+    font-size: 5.8rem;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-family: titleFont;
+    text-shadow: 0 0 3rem black;
+    color: #fff;
+}
+#subtitle1{
+	margin-top: -14%;
+   font-size: 20px;
+    color: White;
+    font-family: subtitleFont;
+}
+#subtitle2{
+	margin-top: -10%;
+   font-size: 15px;
+    color: White;
+        font-family: subtitleFont;
+
+}
+
+#Pagestitle{
+	margin-top: -10%;
+	font-size: 35px;
+    color: White;
+    font-family: pageTitles;
+
+}
+#paragraph{
+	padding-left: 12%;
+	padding-right: 8%;
+	font-size: 25px;
+	color: White;
+	text-align: justify;
+	        font-family: subtitleFont;
+
+
+}
+
+#ResumeIcons{
+	margin-top:-3%;
+	padding-left:15%;
+		padding-top:12%;
+	color:#585858;
+}
